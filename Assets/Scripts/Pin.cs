@@ -21,7 +21,7 @@ public class Pin : MonoBehaviour {
     {
         Vector3 rotationInEuler = transform.rotation.eulerAngles;
 
-        float tiltInX = Mathf.Abs(rotationInEuler.x);
+        float tiltInX = Mathf.Abs(270 - rotationInEuler.x);
         float tiltInZ = Mathf.Abs(rotationInEuler.z);
 
         if(tiltInX < standingThreshold && tiltInZ < standingThreshold)
@@ -32,5 +32,11 @@ public class Pin : MonoBehaviour {
 
         
         return false;
+    }
+
+    //Used in conjunction with setting gravity to -98.1 from -981 to get the pins to sit still already.
+    private void Awake()
+    {
+        this.GetComponent<Rigidbody>().solverVelocityIterations = 10;
     }
 }
