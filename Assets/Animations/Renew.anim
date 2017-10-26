@@ -5,7 +5,7 @@ AnimationClip:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Raise
+  m_Name: Renew
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -52,7 +52,7 @@ AnimationClip:
   m_GenerateMotionCurves: 0
   m_Events:
   - time: 0.016666668
-    functionName: RaisePins
+    functionName: RenewPins
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
