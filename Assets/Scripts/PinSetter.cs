@@ -8,6 +8,7 @@ public class PinSetter : MonoBehaviour {
     public Text standingDisplay;
     public int lastStandingCount = -1;
     public float distanceToRaise = 40f;
+    public GameObject pinSet;
 
     private bool ballEnteredBox = false;
     private float lastChangeTime;
@@ -50,6 +51,8 @@ public class PinSetter : MonoBehaviour {
     public void RenewPins()
     {
         Debug.Log("RENEWING PINS");
+        GameObject newPins = Instantiate(pinSet);
+        newPins.transform.position += new Vector3(0, 20, 0);
     }
 
     private void CheckStanding()
