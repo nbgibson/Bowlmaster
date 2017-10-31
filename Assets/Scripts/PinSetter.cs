@@ -103,14 +103,4 @@ public class PinSetter : MonoBehaviour {
             standingDisplay.color = Color.red;
         }
     }
-
-    private void OnTriggerExit(Collider other)
-    {
-        GameObject thingLeft = other.gameObject;
-
-        if (thingLeft.GetComponent<Pin>())
-        {
-            Destroy(thingLeft);
-        }
-    }
 }
