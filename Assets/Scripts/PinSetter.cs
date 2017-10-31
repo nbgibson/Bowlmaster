@@ -7,7 +7,6 @@ public class PinSetter : MonoBehaviour {
 
     public Text standingDisplay;
     public int lastStandingCount = -1;
-    public float distanceToRaise = 40f;
     public GameObject pinSet;
 
     private bool ballEnteredBox = false;
@@ -26,7 +25,7 @@ public class PinSetter : MonoBehaviour {
 
         if (ballEnteredBox)
         {
-            CheckStanding();
+            UpdateStandingCountAndSettle();
         }
     }   
 
@@ -55,7 +54,7 @@ public class PinSetter : MonoBehaviour {
         newPins.transform.position += new Vector3(0, 20, 0);
     }
 
-    private void CheckStanding()
+    private void UpdateStandingCountAndSettle()
     {
         int currentStanding = CountStanding();
 

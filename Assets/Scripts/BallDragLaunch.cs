@@ -5,10 +5,10 @@ using UnityEngine;
 
 [RequireComponent(typeof(Ball))]
 
-public class DragLaunch : MonoBehaviour {
+public class BallDragLaunch : MonoBehaviour {
 
     private Ball ball;
-    private float startTime, endTime;
+    private float startTime, endTime; //Change to Delta time or whatever to make this fps independent
     private Vector3 dragStart, dragEnd;
 
 	// Use this for initialization
