@@ -105,10 +105,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 957
-  m_MinSize: {x: 506, y: 492}
+  m_MinSize: {x: 504, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 1
-  controlID: 11
+  controlID: 51
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -129,10 +129,10 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 957
-  m_MinSize: {x: 506, y: 492}
+  m_MinSize: {x: 504, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 12
+  controlID: 52
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -151,12 +151,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1581
+    width: 1418
     height: 957
-  m_MinSize: {x: 406, y: 492}
+  m_MinSize: {x: 404, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 13
+  controlID: 53
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -175,12 +175,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1581
+    width: 1418
     height: 670
-  m_MinSize: {x: 406, y: 221}
-  m_MaxSize: {x: 8006, y: 4021}
+  m_MinSize: {x: 404, y: 221}
+  m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
-  controlID: 14
+  controlID: 54
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -197,10 +197,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 230
+    width: 307
     height: 670
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -220,9 +220,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 230
+    x: 307
     y: 0
-    width: 1351
+    width: 1111
     height: 670
   m_MinSize: {x: 204, y: 221}
   m_MaxSize: {x: 4004, y: 4021}
@@ -249,7 +249,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 670
-    width: 1581
+    width: 1418
     height: 287
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
@@ -259,7 +259,7 @@ MonoBehaviour:
   - {fileID: 20}
   - {fileID: 14}
   m_Selected: 0
-  m_LastSelected: 1
+  m_LastSelected: 0
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -274,9 +274,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1581
+    x: 1418
     y: 0
-    width: 339
+    width: 502
     height: 957
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
@@ -307,9 +307,9 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 4143
+    x: 3980
     y: 211
-    width: 337
+    width: 500
     height: 936
   m_IsSceneBased: 0
   m_TestTypeToolbarIndex: 0
@@ -331,7 +331,7 @@ MonoBehaviour:
       name: Assembly-CSharp.dll
       fullName: C:/Users/Admin/Documents/GameDev/Bowlmaster/Library/ScriptAssemblies/Assembly-CSharp.dll
       resultStatus: 1
-      duration: 0.1219812
+      duration: 0.2980645
       messages: 
       output: 
       stacktrace: 
@@ -342,7 +342,7 @@ MonoBehaviour:
       name: ActionMasterTest
       fullName: ActionMasterTest
       resultStatus: 1
-      duration: 0.1020045
+      duration: 0.2787965
       messages: 
       output: 
       stacktrace: 
@@ -353,7 +353,7 @@ MonoBehaviour:
       name: PassingTest
       fullName: ActionMasterTest.PassingTest
       resultStatus: 1
-      duration: 0.0224639
+      duration: 0.0396719
       messages: 
       output: 
       stacktrace: 
@@ -364,19 +364,41 @@ MonoBehaviour:
       name: T01OneStrikeReturnsEndTurn
       fullName: ActionMasterTest.T01OneStrikeReturnsEndTurn
       resultStatus: 1
-      duration: 0.0173732
+      duration: 0.0426683
       messages: 
       output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    m_ResultText: T01OneStrikeReturnsEndTurn (0.017s)
+    - id: '[BowlMaster][Assembly-CSharp.dll][ActionMasterTest][T02Bowl8ReturnsTidy]'
+      name: T02Bowl8ReturnsTidy
+      fullName: ActionMasterTest.T02Bowl8ReturnsTidy
+      resultStatus: 1
+      duration: 0.0340628
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[BowlMaster][Assembly-CSharp.dll][ActionMasterTest][T03Bowl28ReturnsEndTurn]'
+      name: T03Bowl28ReturnsEndTurn
+      fullName: ActionMasterTest.T03Bowl28ReturnsEndTurn
+      resultStatus: 1
+      duration: 0.0297959
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    m_ResultText: T03Bowl28ReturnsEndTurn (0.030s)
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 18afad09
-      m_LastClickedID: 162377496
+      m_SelectedIDs: 16974fd3
+      m_LastClickedID: -749758698
       m_ExpandedIDs: d6a9f090bec59fefee6d65f29e2c135fffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -576,9 +598,9 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
-    x: 2792
+    x: 2869
     y: 211
-    width: 1347
+    width: 1107
     height: 649
   m_MaximizeOnPlay: 0
   m_Gizmos: 0
@@ -608,25 +630,25 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
-      width: 1347
+      width: 1107
       height: 632
-    m_Scale: {x: 0.8229167, y: 0.8229167}
-    m_Translation: {x: 673.5, y: 316}
+    m_Scale: {x: 0.8229166, y: 0.8229167}
+    m_Translation: {x: 553.5, y: 316}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -818.43036
+      x: -672.6076
       y: -384
-      width: 1636.8607
+      width: 1345.2152
       height: 768
     m_MinimalGUI: 1
   m_defaultScale: 0.8229167
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 1347, y: 649}
+  m_LastWindowPixelSize: {x: 1107, y: 649}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
@@ -654,13 +676,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2560
     y: 211
-    width: 228
+    width: 305
     height: 649
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 68060000
+    m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 2abfffff52bfffffa2c1ffffcec3fffff6c3ffff26c6ffffe4c8ffff0cc9ffff34cbffff10dcffff38dcffff0edfffff88e0ffffb0e0ffff90e3ffffc2e6ffffeae6fffff0e9ffffd8fbffff00000000
+    m_ExpandedIDs: 86cdffffaecdffff9ed0ffff52d3ffff7ad3ffff56d6fffffed9ffff26daffff4addffff1ce2ffff44e2ffff38e5ffff2ef1ffff56f1ffff8cf4ffffd8fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -705,9 +727,9 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
-    x: 2792
+    x: 2869
     y: 211
-    width: 1347
+    width: 1107
     height: 649
   m_SceneLighting: 1
   lastFramingTime: 37.78213340861738
@@ -781,7 +803,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2560
     y: 881
-    width: 1579
+    width: 1416
     height: 266
   m_SearchFilter:
     m_NameFilter: 
@@ -806,7 +828,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 119}
     m_SelectedIDs: 24250000
     m_LastClickedID: 9508
-    m_ExpandedIDs: 00000000ce240000ba250000ae27000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000ce240000ba250000ac27000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -834,7 +856,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ce240000ba250000ae270000
+    m_ExpandedIDs: 00000000ce240000ba250000ac270000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -937,10 +959,10 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 1688
-    y: 92
-    width: 360
-    height: 1008
+    x: 3980
+    y: 211
+    width: 500
+    height: 936
   m_ScrollPosition: {x: 0, y: 0}
   m_InspectorMode: 0
   m_PreviewResizer:
