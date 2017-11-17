@@ -13,8 +13,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 2560
-    y: 162
+    x: -1920
+    y: 147
     width: 1920
     height: 1007
   m_ShowMode: 4
@@ -307,8 +307,8 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 3980
-    y: 211
+    x: -500
+    y: 196
     width: 500
     height: 936
   m_IsSceneBased: 0
@@ -331,7 +331,7 @@ MonoBehaviour:
       name: Assembly-CSharp.dll
       fullName: C:/Users/Admin/Documents/GameDev/Bowlmaster/Library/ScriptAssemblies/Assembly-CSharp.dll
       resultStatus: 1
-      duration: 0.2980645
+      duration: 0.5871078
       messages: 
       output: 
       stacktrace: 
@@ -342,7 +342,7 @@ MonoBehaviour:
       name: ActionMasterTest
       fullName: ActionMasterTest
       resultStatus: 1
-      duration: 0.2787965
+      duration: 0.5681653
       messages: 
       output: 
       stacktrace: 
@@ -353,7 +353,7 @@ MonoBehaviour:
       name: PassingTest
       fullName: ActionMasterTest.PassingTest
       resultStatus: 1
-      duration: 0.0396719
+      duration: 0.0418863
       messages: 
       output: 
       stacktrace: 
@@ -364,7 +364,7 @@ MonoBehaviour:
       name: T01OneStrikeReturnsEndTurn
       fullName: ActionMasterTest.T01OneStrikeReturnsEndTurn
       resultStatus: 1
-      duration: 0.0426683
+      duration: 0.0331304
       messages: 
       output: 
       stacktrace: 
@@ -375,7 +375,7 @@ MonoBehaviour:
       name: T02Bowl8ReturnsTidy
       fullName: ActionMasterTest.T02Bowl8ReturnsTidy
       resultStatus: 1
-      duration: 0.0340628
+      duration: 0.0340874
       messages: 
       output: 
       stacktrace: 
@@ -386,19 +386,63 @@ MonoBehaviour:
       name: T03Bowl28ReturnsEndTurn
       fullName: ActionMasterTest.T03Bowl28ReturnsEndTurn
       resultStatus: 1
-      duration: 0.0297959
+      duration: 0.0336879
       messages: 
       output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    m_ResultText: T03Bowl28ReturnsEndTurn (0.030s)
+    - id: '[BowlMaster][Assembly-CSharp.dll][ActionMasterTest][T04CheckResetAtStrikeInLastFrame]'
+      name: T04CheckResetAtStrikeInLastFrame
+      fullName: ActionMasterTest.T04CheckResetAtStrikeInLastFrame
+      resultStatus: 1
+      duration: 0.0434858
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[BowlMaster][Assembly-CSharp.dll][ActionMasterTest][T05CheckResetAtSpareInLastFrame]'
+      name: T05CheckResetAtSpareInLastFrame
+      fullName: ActionMasterTest.T05CheckResetAtSpareInLastFrame
+      resultStatus: 1
+      duration: 0.0337717
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[BowlMaster][Assembly-CSharp.dll][ActionMasterTest][T06ReplecatingSampleGame]'
+      name: T06ReplecatingSampleGame
+      fullName: ActionMasterTest.T06ReplecatingSampleGame
+      resultStatus: 1
+      duration: 0.0413068
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[BowlMaster][Assembly-CSharp.dll][ActionMasterTest][T07GameEndsAtBowl20]'
+      name: T07GameEndsAtBowl20
+      fullName: ActionMasterTest.T07GameEndsAtBowl20
+      resultStatus: 1
+      duration: 0.033314
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    m_ResultText: T07GameEndsAtBowl20 (0.033s)
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 16974fd3
-      m_LastClickedID: -749758698
+      m_SelectedIDs: b2177c09
+      m_LastClickedID: 159127474
       m_ExpandedIDs: d6a9f090bec59fefee6d65f29e2c135fffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -598,8 +642,8 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
-    x: 2869
-    y: 211
+    x: -1611
+    y: 196
     width: 1107
     height: 649
   m_MaximizeOnPlay: 0
@@ -674,15 +718,15 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 2560
-    y: 211
+    x: -1920
+    y: 196
     width: 305
     height: 649
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 86cdffffaecdffff9ed0ffff52d3ffff7ad3ffff56d6fffffed9ffff26daffff4addffff1ce2ffff44e2ffff38e5ffff2ef1ffff56f1ffff8cf4ffffd8fbffff00000000
+    m_ExpandedIDs: 1eb3ffff46b3ffff78b6ffff2cb8ffff54b8ffffb2bbffff0ebfffff36bfffff8ac2ffffe8c4ffff10c5ffff48c8ffffcecbfffff6cbffff34cfffff3ed2ffff66d2ffffbcd5ffff9ad9ffffc2d9ffff04ddffffd8e0ffff00e1ffff32e4ffff58e8ffff80e8ffffc2ebffff56efffff7eefffffc8f2ffffd8fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -727,8 +771,8 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
-    x: 2869
-    y: 211
+    x: -1611
+    y: 196
     width: 1107
     height: 649
   m_SceneLighting: 1
@@ -801,8 +845,8 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 2560
-    y: 881
+    x: -1920
+    y: 866
     width: 1416
     height: 266
   m_SearchFilter:
@@ -887,18 +931,18 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: ec5d00002625000000000000362500003825000088d1ffff
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: ActionMasterTest
+      m_OriginalName: ActionMasterTest
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 1640
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 11}
     m_CreateAssetUtility:
