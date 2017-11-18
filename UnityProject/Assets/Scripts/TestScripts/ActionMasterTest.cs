@@ -89,4 +89,27 @@ public class ActionMasterTest
         }
         Assert.AreEqual(endGame, actionMaster.Bowl(1));
     }
+
+    [Test]
+    public void T08StrikeAt19ThenFivePins()
+    {
+        int[] rolls = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 10};
+        foreach (int roll in rolls)
+        {
+            actionMaster.Bowl(roll);
+        }
+        Assert.AreEqual(tidy, actionMaster.Bowl(5));
+    }
+
+    [Test]
+    public void T09StrikeAt19ThenZeroPins()
+    {
+        int[] rolls = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 10 };
+        foreach (int roll in rolls)
+        {
+            actionMaster.Bowl(roll);
+        }
+        Assert.AreEqual(tidy, actionMaster.Bowl(0));
+    }
+
 }

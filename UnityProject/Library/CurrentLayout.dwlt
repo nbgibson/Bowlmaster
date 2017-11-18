@@ -331,7 +331,7 @@ MonoBehaviour:
       name: Assembly-CSharp.dll
       fullName: C:/Users/Admin/Documents/GameDev/Bowlmaster/Library/ScriptAssemblies/Assembly-CSharp.dll
       resultStatus: 1
-      duration: 0.5871078
+      duration: 0.6951498
       messages: 
       output: 
       stacktrace: 
@@ -342,7 +342,7 @@ MonoBehaviour:
       name: ActionMasterTest
       fullName: ActionMasterTest
       resultStatus: 1
-      duration: 0.5681653
+      duration: 0.6744381
       messages: 
       output: 
       stacktrace: 
@@ -353,7 +353,7 @@ MonoBehaviour:
       name: PassingTest
       fullName: ActionMasterTest.PassingTest
       resultStatus: 1
-      duration: 0.0418863
+      duration: 0.0392192
       messages: 
       output: 
       stacktrace: 
@@ -364,7 +364,7 @@ MonoBehaviour:
       name: T01OneStrikeReturnsEndTurn
       fullName: ActionMasterTest.T01OneStrikeReturnsEndTurn
       resultStatus: 1
-      duration: 0.0331304
+      duration: 0.0334639
       messages: 
       output: 
       stacktrace: 
@@ -375,7 +375,7 @@ MonoBehaviour:
       name: T02Bowl8ReturnsTidy
       fullName: ActionMasterTest.T02Bowl8ReturnsTidy
       resultStatus: 1
-      duration: 0.0340874
+      duration: 0.033783
       messages: 
       output: 
       stacktrace: 
@@ -386,7 +386,7 @@ MonoBehaviour:
       name: T03Bowl28ReturnsEndTurn
       fullName: ActionMasterTest.T03Bowl28ReturnsEndTurn
       resultStatus: 1
-      duration: 0.0336879
+      duration: 0.0337654
       messages: 
       output: 
       stacktrace: 
@@ -397,7 +397,7 @@ MonoBehaviour:
       name: T04CheckResetAtStrikeInLastFrame
       fullName: ActionMasterTest.T04CheckResetAtStrikeInLastFrame
       resultStatus: 1
-      duration: 0.0434858
+      duration: 0.0338482
       messages: 
       output: 
       stacktrace: 
@@ -408,7 +408,7 @@ MonoBehaviour:
       name: T05CheckResetAtSpareInLastFrame
       fullName: ActionMasterTest.T05CheckResetAtSpareInLastFrame
       resultStatus: 1
-      duration: 0.0337717
+      duration: 0.0336828
       messages: 
       output: 
       stacktrace: 
@@ -419,7 +419,7 @@ MonoBehaviour:
       name: T06ReplecatingSampleGame
       fullName: ActionMasterTest.T06ReplecatingSampleGame
       resultStatus: 1
-      duration: 0.0413068
+      duration: 0.0334565
       messages: 
       output: 
       stacktrace: 
@@ -430,19 +430,41 @@ MonoBehaviour:
       name: T07GameEndsAtBowl20
       fullName: ActionMasterTest.T07GameEndsAtBowl20
       resultStatus: 1
-      duration: 0.033314
+      duration: 0.0338783
       messages: 
       output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    m_ResultText: T07GameEndsAtBowl20 (0.033s)
+    - id: '[BowlMaster][Assembly-CSharp.dll][ActionMasterTest][T08StrikeAt19ThenFivePins]'
+      name: T08StrikeAt19ThenFivePins
+      fullName: ActionMasterTest.T08StrikeAt19ThenFivePins
+      resultStatus: 1
+      duration: 0.034223
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[BowlMaster][Assembly-CSharp.dll][ActionMasterTest][T09StrikeAt19ThenZeroPins]'
+      name: T09StrikeAt19ThenZeroPins
+      fullName: ActionMasterTest.T09StrikeAt19ThenZeroPins
+      resultStatus: 1
+      duration: 0.0338476
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    m_ResultText: T05CheckResetAtSpareInLastFrame (0.034s)
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: b2177c09
-      m_LastClickedID: 159127474
+      m_SelectedIDs: fc2eeff1
+      m_LastClickedID: -235983108
       m_ExpandedIDs: d6a9f090bec59fefee6d65f29e2c135fffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -726,7 +748,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 1eb3ffff46b3ffff78b6ffff2cb8ffff54b8ffffb2bbffff0ebfffff36bfffff8ac2ffffe8c4ffff10c5ffff48c8ffffcecbfffff6cbffff34cfffff3ed2ffff66d2ffffbcd5ffff9ad9ffffc2d9ffff04ddffffd8e0ffff00e1ffff32e4ffff58e8ffff80e8ffffc2ebffff56efffff7eefffffc8f2ffffd8fbffff00000000
+    m_ExpandedIDs: 00b3ffff28b3ffff7eb6ffff84b9ffffacb9ffff0abdffff82c0ffffaac0fffffcc3ffffe4c7ffff0cc8ffff60cbffffe4ceffff0ccfffff52d2ffff72d4ffff9ad4ffffe8d7ffff32dbffff5adbffffb6deffffcee3fffff6e3ffff5ee7ffffe0f0ffff08f1ffffeef3ffffd8fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -931,18 +953,18 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: ec5d00002625000000000000362500003825000088d1ffff
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: ActionMasterTest
-      m_OriginalName: ActionMasterTest
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 1640
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 11}
     m_CreateAssetUtility:

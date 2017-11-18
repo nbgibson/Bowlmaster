@@ -23,14 +23,30 @@ public class ActionMaster {
             return Action.EndGame;
         }
 
-        if (bowl >= 19 && Bowl21Awarded())
+        if (bowl == 19 && pins == 10)
         {
-            bowl += 1;
+            bowl++;
             return Action.Reset;
         }
-        else if(bowl == 20 && !Bowl21Awarded())
+        else if(bowl == 20)
         {
-            return Action.EndGame;
+            bowl++;
+            if (bowls[19 - 1] == 10 && bowls[20 - 1] != 10)
+            {
+                return Action.Tidy;
+            }
+            else if ((bowls[19 - 1] + bowls[20 - 1]) % 10 == 0)
+            {
+                return Action.Reset;
+            }
+            else if (Bowl21Awarded())
+            {
+                return Action.Tidy;
+            }
+            else
+            {
+                return Action.EndGame;
+            }
         }
 
         if(pins == 10)
