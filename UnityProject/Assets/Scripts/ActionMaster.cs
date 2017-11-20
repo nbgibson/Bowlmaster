@@ -23,7 +23,8 @@ public class ActionMaster {
             return Action.EndGame;
         }
 
-        if (bowl == 19 && pins == 10)
+        //Last frane special cases
+        if (bowl >= 19 && pins == 10)
         {
             bowl++;
             return Action.Reset;
@@ -49,18 +50,21 @@ public class ActionMaster {
             }
         }
 
-        if(pins == 10)
+        if(bowl % 2 != 0) //start of frame 1-9
         {
-            bowl += 2;
-            return Action.EndTurn;
+            if(pins == 10)
+            {
+                bowl += 2;
+                return Action.EndTurn;
+            }
+            else
+            {
+                bowl += 1;
+                return Action.Tidy;
+            }
+            
         }
-
-        if(bowl % 2 != 0) //start of frame
-        {
-            bowl += 1;
-            return Action.Tidy;
-        }
-        else if(bowl % 2 == 0){ //end of frame
+        else if(bowl % 2 == 0){ //end of frame 1-9
             bowl += 1;
             return Action.EndTurn;
         }
