@@ -21,6 +21,7 @@ public class ScoreMaster {
     {
         List<int> frames = new List<int>();
 
+        //Index points to 2nd bowl of a frame
         for (int i = 1; i < rolls.Count; i += 2){
             if(frames.Count == 10) { break; }           //Prevents 11th frame score
 
@@ -29,14 +30,14 @@ public class ScoreMaster {
                 frames.Add(rolls[i - 1] + rolls[i]);
             }
 
-            if (rolls.Count - i <= 1) { break; }        //Insufficient look ahead
+            if (rolls.Count - i <= 1) { break; }        //Ensure at least one look ahead frame is available
 
-            if(rolls[i-1] == 10)                        //Strike
+            if(rolls[i-1] == 10)                        
             {
-                i--;                                    //Strike frame has just one bowl
+                i--;                                    //STRIKE frame has just one bowl
                 frames.Add(10 + rolls[i + 1] + rolls[i + 2]);
             }
-            else if (rolls[i - 1] + rolls[i] == 10)     //Spare
+            else if (rolls[i - 1] + rolls[i] == 10)     //SPARE
             {
                 frames.Add(10 + rolls[i + 1]);
             }
