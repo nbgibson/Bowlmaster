@@ -48,23 +48,23 @@ public class PinSetter : MonoBehaviour {
         newPins.transform.position += new Vector3(0, 20, 0);
     }
 
-    public void PerformAction(ActionMaster.Action action)
+    public void PerformAction(ActionMasterOld.Action action)
     {
-        if (action == ActionMaster.Action.Tidy)
+        if (action == ActionMasterOld.Action.Tidy)
         {
             animator.SetTrigger("tidyTrigger");
         }
-        else if (action == ActionMaster.Action.EndTurn)
+        else if (action == ActionMasterOld.Action.EndTurn)
         {
             animator.SetTrigger("resetTrigger");
             pinCounter.Reset();
         }
-        else if (action == ActionMaster.Action.Reset)
+        else if (action == ActionMasterOld.Action.Reset)
         {
             animator.SetTrigger("resetTrigger");
             pinCounter.Reset();
         }
-        else if (action == ActionMaster.Action.EndGame)
+        else if (action == ActionMasterOld.Action.EndGame)
         {
             throw new UnityException("Don't know how to handle game ending yet.");
         }
