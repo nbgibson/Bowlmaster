@@ -7,19 +7,28 @@ public class ScoreDisplay : MonoBehaviour {
 
     public Text[] rollTexts, frameTexts;
 
-	// Use this for initialization
-	void Start () {
-        rollTexts[0].text = "X";
-        frameTexts[0].text = "0";
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-
-    public void FillRollCard(List<int> rolls)
+	public void FillRolls(List<int> rolls)
     {
-        rolls[-1] = 1;
+        string scoresString = FormatRolls(rolls);
+        for(int i = 0; i < scoresString.Length; i++)
+        {
+            rollTexts[i].text = scoresString[i].ToString();
+        }
+    }
+
+    public void FillFrames(List<int> frames)
+    {
+        for (int i = 0; i < frames.Count; i++)
+        {
+            frameTexts[i].text = frames[i].ToString();
+        }
+    }
+
+    public static string FormatRolls(List<int> rolls)
+    {
+        string output = "";
+
+
+        return output;
     }
 }
