@@ -28,6 +28,31 @@ public class ScoreDisplay : MonoBehaviour {
     {
         string output = "";
 
+        for (int i = 0; i < rolls.Count; i++)
+        {
+            int box = output.Length + 1;
+
+            if(rolls[i] == 0)
+            {
+                output += "-";
+            }
+            else if((box % 2 == 0 || box == 21)&& rolls[i-1] + rolls[i] == 10)
+            {
+                output += "/";
+            }
+            else if(box >= 19 && rolls[i] == 10)
+            {
+                output += "X";
+            }
+            else if(rolls[i] == 10)
+            {
+                output += "X ";
+            }
+            else
+            {
+                output += rolls[i].ToString();
+            }
+        }
 
         return output;
     }
